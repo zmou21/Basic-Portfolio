@@ -97,7 +97,7 @@ a:active {
 	padding: 0;
 	width: 100%;
 	position: absolute;
-	top: 20%;
+	top: 18%;
 }
 
 .container_body {
@@ -192,7 +192,7 @@ img{
 	background-color: #fff;
 	border: 1px ridge #dddddd;
 	width: 610px;
-	height: 400px;
+	height: 425px;
 	margin-right: 20px;
 	padding: 20px;
 	float: left; 
@@ -202,6 +202,51 @@ img{
 #form_contact {
 	border-bottom: 2px solid #dddddd;
 	padding: 10px 0;	
+}
+
+#form_name {
+	padding: 5px 0;	
+	line-height: 1.25;
+}
+
+#form_email {
+	padding: 5px 0;
+	line-height: 1.25;	
+}
+
+#form_text {
+	padding: 5px 0;
+	line-height: 1.25;	
+}
+
+input {
+	width: 590px;
+}
+
+textarea {
+	width: 590px;
+	margin: auto;
+	height: 200px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: #eee;
+	border: none;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+
+}
+
+button:active {
+
 }
 
 /* This is my footer*/
