@@ -133,11 +133,6 @@ a:active {
 	float: left;
 }
 
-img{
-	width: 200px;
-	height: 200px;
-}
-
 #bio_para{
 	padding: 20px 0;
 	position: relative;
@@ -346,6 +341,11 @@ button:hover {
 button:active {
 	background-color: #ddd;
 	color: #fff;
+}
+
+img{
+	width: 200px;
+	height: 200px;
 }
 
 
