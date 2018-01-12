@@ -1,7 +1,9 @@
-body {
+html, body {
 	background-image: url(../images/intersection.png);
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #333;
+	height: 100%;
+	position: relative;
 }
 
 h1, h2, h3 {
@@ -17,6 +19,7 @@ p {
  	font-size: 1.1em;
  	line-height: 1.5;
  }
+
 
 /* index.html: This is the header*/
 
@@ -94,7 +97,7 @@ a:active {
 
 .wrap_body {
 	margin: auto;
-	padding: 0;
+	padding-bottom: 5%;
 	width: 100%;
 	position: absolute;
 	top: 18%;
@@ -121,8 +124,7 @@ a:active {
 
 #bio_name{
 	border-bottom: 2px solid #dddddd;
-	padding: 10px 0;
-	
+	padding: 10px 0;	
 }
 
 #bio_image{
@@ -179,12 +181,88 @@ img{
 	float: right;
 }
 
-#connect_images {
+.connect_images {
 	width: 50px;
 	height: 50px;
 }
 
-/* Portfolio Page: This is CSS for my portfolio/
+/*Portfolio Page: This is CSS for my portfolio*/
+
+.portfolio {
+	background-color: #fff;
+	border: 1px ridge #dddddd;
+	width: 610px;
+	height: 700px;
+	margin-right: 20px;
+	padding: 20px;
+	float: left; 
+	position: relative;
+}
+
+#portfolio_name{
+	border-bottom: 2px solid #dddddd;
+	padding: 10px 0;	
+}
+
+#top {
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#portfolio_1 {
+	float: left;
+	position: relative;
+}
+
+
+#portfolio_2 {
+	float: right;
+	position: relative;
+}
+
+#middle {
+	margin: 10px 0;
+	padding: 10px 0;
+	clear: both;
+}
+
+#portfolio_3 {
+	float: left;
+	position: relative;
+}
+
+
+#portfolio_4 {
+	float: right;
+	position: relative;
+}
+
+#bottom {
+	margin: 10px 0;
+	padding: 10px 0;
+	clear: both;
+}
+
+#portfolio_5 {
+	float: left;
+	position: relative;
+}
+
+.port_image {
+	width: 275px;
+	height: 185px;
+}
+
+.image_text {
+	position: absolute;
+	top: 70%;
+	z-index: 10;
+	background-color: #4aaaa5;
+	color: #fff;
+	width: 275px;
+	padding: 10px 0;
+	text-align: center;
+}
 
 /* Contact Page: This is CSS for my form*/
 
@@ -221,37 +299,63 @@ img{
 
 input {
 	width: 590px;
+	border: 1px solid #ddd;
+	color: #ccc;
+}
+
+input:required {
+	border: 1px solid red;
 }
 
 textarea {
 	width: 590px;
 	margin: auto;
 	height: 200px;
+	border: 1px solid #ddd;
 }
 
 button {
 	background-color: #4aaaa5;
 	color: #eee;
 	border: none;
-	padding: 15px 32px;
+	padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px; 
     cursor: pointer;
 }
 
-button:hover {
+button:visited {
+	background-color: #ddd;
+	color: #fff;
+}
 
+button:hover {
+	background-color: #bbb;
+	color: #fff;
 }
 
 button:active {
-
+	background-color: #ddd;
+	color: #fff;
 }
+
 
 /* This is my footer*/
 
-footer {
+.wrap_foot {
+	background-color: #ccc;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 20;
+}
+
+
+#footer {
 	background-color: #666666;
 	color: #fff;
 	text-align: center;
@@ -259,31 +363,6 @@ footer {
 	width: 97.6%;
 	padding: 1.2%;
 	border-top: 4px solid #4aaaa5;
-	position: fixed;
-	bottom: 0;
+	height: 10px;
 	clear: both;
 }
-/*
-.wrap {
-	max-width: auto;
-	padding: 20px 150px;
-}
-
-
-.name_2 {
-	text-align: left;
-	width: 300px;
-	float: left;
-	padding-top: 50px;
-	/*padding-right: 130px;
-}
-
-.name {
-	float:left;
-	width: 70%;
-}
-
-.contact {
-	float:right;
-	width: 30%;
-}*/
