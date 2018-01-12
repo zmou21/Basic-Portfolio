@@ -275,6 +275,8 @@ a:active {
 	height: 425px;
 	margin-right: 20px;
 	padding: 20px;
+	color: #777;
+	font-size: 16px;
 	float: left; 
 	position: relative;
 }
@@ -302,7 +304,7 @@ a:active {
 input {
 	width: 590px;
 	border: 1px solid #ddd;
-	color: #ccc;
+	color: #777;
 }
 
 input:required {
@@ -313,6 +315,7 @@ textarea {
 	width: 590px;
 	margin: auto;
 	height: 200px;
+	color: #777;
 	border: 1px solid #ddd;
 }
 
