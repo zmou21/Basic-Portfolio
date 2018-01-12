@@ -70,6 +70,7 @@ p {
 	padding: 0 5px;
 }
 
+
 .anchor {
 	padding: 0 10px;
 	text-decoration: none;
@@ -192,7 +193,7 @@ img{
 	background-color: #fff;
 	border: 1px ridge #dddddd;
 	width: 610px;
-	height: 700px;
+	height: 675px;
 	margin-right: 20px;
 	padding: 20px;
 	float: left; 
@@ -256,12 +257,13 @@ img{
 .image_text {
 	position: absolute;
 	top: 70%;
-	z-index: 10;
+	z-index: 5;
 	background-color: #4aaaa5;
 	color: #fff;
 	width: 275px;
 	padding: 10px 0;
 	text-align: center;
+	clear:both;
 }
 
 /* Contact Page: This is CSS for my form*/
