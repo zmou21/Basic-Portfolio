@@ -70,6 +70,12 @@ p {
 	padding: 0 5px;
 }
 
+a#head_anchor {
+	text-decoration: none;
+	position: absolute;
+	top:25%;
+}
+
 
 .anchor {
 	padding: 0 10px;
